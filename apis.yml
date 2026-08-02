@@ -1,8 +1,26 @@
 aid: truly-experiences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/truly-experiences.png
 name: Truly Experiences
-description: Truly Experiences is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Truly Experiences is a UK-based experiential gifting company that curates and sells memorable
+  experiences as gifts rather than physical products. Its catalog spans dining, spa treatments,
+  drinks tastings, activities, masterclasses, travel getaways, and premium "dreams come true"
+  experiences, organized by recipient, occasion, price point, and UK location (London, Edinburgh,
+  Birmingham, Manchester and beyond). After checkout customers receive an e-certificate with a unique
+  code, and a concierge team arranges the booking date and time. The company was surfaced as a
+  portfolio company of 500 Global. As of this enrichment pass it operates a consumer e-commerce
+  storefront with no public developer API, developer portal, or machine-readable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/truly-experiences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Experiences
+- Gifting
+- Ecommerce
+- Travel
+- Hospitality
+- Consumer
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://trulyexperiences.com
+- type: Blog
+  url: https://trulyexperiencesblog.com
+- type: Support
+  url: https://trulyexperiences.com/contact-us-and-frequently-asked-questions
+- type: TermsOfService
+  url: https://trulyexperiences.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://trulyexperiences.com/privacy-policy
+- type: DomainSecurity
+  url: security/truly-experiences-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
